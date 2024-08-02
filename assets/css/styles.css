@@ -1,3 +1,51 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --FF: "Inter", sans-serif;
+
+  --BG-COLOR-1: hsl(0, 0%, 12%);
+  --BG-COLOR-2: hsl(0, 0%, 8%);
+  --FONT-COLOR-1: hsl(75, 94%, 57%);
+  --FONT-COLOR-2: hsl(0, 0%, 100%);
+  --FONT-COLOR-3: hsl(0, 0%, 8%);
+  --LINK-BG-COLOR-1:hsl(0, 0%, 20%);
+  --LINK-BG-COLOR-2:hsl(75, 94%, 57%);
+}
+
+body {
+  font-family: var(--FF);
+  background-color: var(--BG-COLOR-2);
+  color: var(--FONT-COLOR-2);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#profile {
+  display: flex;
+  font-size: 0.8rem;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: var(--BG-COLOR-1);
+  border-radius: 0.5rem;
+  gap: 0.5rem;
+}
+
+#profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
