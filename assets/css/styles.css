@@ -38,12 +38,22 @@ body {
   background-color: var(--BG-COLOR-1);
   border-radius: 0.5rem;
   gap: 0.5rem;
+  margin: 0 1.2rem;
 }
 
 #profile-picture {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+}
+
+#profile h1 {
+  font-size: 1.4rem;
+}
+
+#profile h2 {
+  font-size: 0.8rem;
+  color: var(--FONT-COLOR-1);
 }
 
 .attribution {
