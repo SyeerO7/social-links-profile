@@ -15,8 +15,8 @@
   --FONT-COLOR-1: hsl(75, 94%, 57%);
   --FONT-COLOR-2: hsl(0, 0%, 100%);
   --FONT-COLOR-3: hsl(0, 0%, 8%);
-  --LINK-BG-COLOR-1:hsl(0, 0%, 20%);
-  --LINK-BG-COLOR-2:hsl(75, 94%, 57%);
+  --LINK-BG-COLOR-1: hsl(0, 0%, 20%);
+  --LINK-BG-COLOR-2: hsl(75, 94%, 57%);
 }
 
 body {
@@ -81,6 +81,12 @@ body {
   border-radius: 0.4rem;
   font-weight: 700;
   font-style: normal;
+}
+
+.Social-link-container a:hover,
+.Social-link-container a:focus {
+  background-color: var(--LINK-BG-COLOR-2);
+  color: var(--FONT-COLOR-3);
 }
 
 .attribution {
