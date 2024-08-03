@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-profile-SpYBVn4TOe](https://www.frontendmentor.io/solutions/social-links-profile-SpYBVn4TOe)
+- Live Site URL: [https://syeero7.github.io/social-links-profile/](https://syeero7.github.io/social-links-profile/)
 
 ### Built with
 
